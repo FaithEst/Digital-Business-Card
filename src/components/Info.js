@@ -5,7 +5,7 @@ import faith from './images/faith.jpg';
 function Info(){
     return(
         <section className="secOne">
-            <img src={faith} className="info--image" alt="personal-image"/>
+            <img src={faith} className="info--image" alt="person"/>
             <div className="card--details">
                 <h1 className="person-name">Faith Mutitu</h1>
                 <p className="person-work">Frontend Developer</p>

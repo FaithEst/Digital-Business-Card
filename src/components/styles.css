@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
+    background-color: #1A1B21;
     font-family: 'Inter', sans-serif;
 }
 
 /* -----info section ----- */
 .secOne{
     width: 100%;
-    background-color: #1A1B21;
+    padding-bottom: 5px;
     border-radius: 10px 10px 0 0; 
 }
 .info--image{
@@ -73,3 +74,22 @@ body{
     font-size: 14px;
     font-weight: 600;
 }
+/* ---- about section ---- */
+.about--section, .interest--section{
+    padding: 20px 0;
+}
+.about--title, .interest--title{
+    width: 80%;
+    margin: auto;
+    color: #F5F5F5;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.about--desc, .interest--desc{
+    width: 80%;
+    margin: auto;
+    color: #DCDCDC;
+    font-size: 10px;
+    line-height: 1.6;
+}
+/* ------ footer ------- */
